@@ -110,11 +110,6 @@ time_range = 645 # frame in time (width)
 frequency = int(1 + n_fft/2) # frequency bins (height)
 
 
-n_fft = 2048 # FFT window size
-hop_length = 1024 # number audio of frames between STFT columns
-time_range = 645 # frame in time (width)
-frequency = int(1 + n_fft/2) # frequency bins (height)
-
 from librosa import stft
 import random
 
